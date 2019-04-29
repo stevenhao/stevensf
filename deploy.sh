@@ -1,4 +1,4 @@
-REMOTE_LOCATION=ubuntu:~/stevensf
+REMOTE_LOCATION="ubuntu:~/stevensf"
 
 if [ -z "$1" ]; then
     echo "No argument supplied"
