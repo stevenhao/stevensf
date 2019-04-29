@@ -5,11 +5,6 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-if [ ! -d "$1" ]; then
-  echo "Invalid directory: $1"
-  exit 1
-fi
-
 rm -rf build
 mkdir build
 date > build/date
